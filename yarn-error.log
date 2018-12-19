@@ -1,0 +1,54 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add babel-node
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\nodejs\;C:\Users\BraveHead\Anaconda2;C:\Users\BraveHead\Anaconda2\Library\mingw-w64\bin;C:\Users\BraveHead\Anaconda2\Library\usr\bin;C:\Users\BraveHead\Anaconda2\Library\bin;C:\Users\BraveHead\Anaconda2\Scripts;C:\Users\BraveHead\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\BraveHead\AppData\Local\Programs\Python\Python37-32\;C:\Users\BraveHead\AppData\Local\Microsoft\WindowsApps;C:\Users\BraveHead\AppData\Local\GitHubDesktop\bin;C:\Users\BraveHead\AppData\Local\Yarn\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\BraveHead\Documents\R\win-library\3.5;C:\apache-ant-1.10.5-bin\bin;C:\Users\BraveHead\platform-tools;C:\Users\BraveHead\tools;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\Java\jre1.8.0_131\bin;C:\Users\BraveHead\AppData\Roaming\npm
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  11.3.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "devDependencies": {
+      "babel": "^6.23.0",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-register": "^6.26.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: E:\GitHubFiles\FPCodingLearning\node_modules\babel-node: Command failed.
+  Exit code: 1
+  Command: C:\WINDOWS\system32\cmd.exe
+  Arguments: /d /s /c node message.js; sleep 10; exit 1;
+  Directory: E:\GitHubFiles\FPCodingLearning\node_modules\babel-node
+  Output:
+  internal/modules/cjs/loader.js:605
+      throw err;
+      ^
+  
+  Error: Cannot find module 'E:\GitHubFiles\FPCodingLearning\node_modules\babel-node\message.js;'
+      at Function.Module._resolveFilename (internal/modules/cjs/loader.js:603:15)
+      at Function.Module._load (internal/modules/cjs/loader.js:529:25)
+      at Function.Module.runMain (internal/modules/cjs/loader.js:775:12)
+      at startup (internal/bootstrap/node.js:300:19)
+      at bootstrapNodeJSCore (internal/bootstrap/node.js:826:3)
+      at ProcessTermError.MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at new ProcessTermError (C:\Program Files (x86)\Yarn\lib\cli.js:226:113)
+      at ChildProcess.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:30281:17)
+      at ChildProcess.emit (events.js:182:13)
+      at maybeClose (internal/child_process.js:978:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:265:5)
